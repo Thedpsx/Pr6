@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>3 Column Layout</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"><img src="public/images/1.png"></header>
+<div class="container">
+   <main class="center column">
+       <article>
+           <h1>Contact</h1>
+           <form action="#">
+               <div>
+                <h2>Данные</h2>
+                <input type="text" placeholder="Имя">
+                <input type="data" placeholder="Дата рождения">
+                <div>
+                <select name="" id="">
+                    <option disabled selected>Пол</option>
+                    <option>Мужчина</option>
+                    <option>Женщина</option>
+                    <option>Боевой вертолёт</option>
+                </select>
+                
+                <select name="" id="">
+                    <option disabled selected>Страна</option>
+                    <option>Украина</option>
+                    <option>Другая страна</option>
+                </select>
+                </div>
+                <div>
+                    <input type="text" placeholder="Телефон">
+                </div>
+               <div>
+                <p>NOTES</p>
+                <p>
+                <textarea name="comment" cols="40" rows="5"></textarea>
+                <div>
+                <input type="button" class="button" value="Сохранить">
+                </div>
+                </p>
+               </div>
+               </div>
+                <p><label for="photo">Photo:</label><input type = "file"  id="photo" size = "10"></p>
+                <input type="text" placeholder="Логин"> 
+               <div>
+                <input type="email" placeholder="email">
+                </div>
+                <input type="password" placeholder="Пароль">
+                <div>
+                <input type="password" placeholder="Подтвердить пароль">
+                </div>
+                <div>
+                <p><input type="checkbox" class="chech">i accept terms and conditions</p>
+               </div>
+                
+           </form>
+   </main>
+   <nav class="left column">
+       <h3>Left heading</h3>
+       <ul>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="slider.html">Slider</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="canvas.html">Canvas</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+   <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer"><p>Footer...</p></footer>
+</div>
+</body>
+</html>
